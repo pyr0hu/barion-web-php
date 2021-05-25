@@ -15,23 +15,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-class FundingInformationModel implements iBarionModel
+class PayeeTransactionModel
 {
-    public $BankCard;
-    public $AuthorizationCode;
+    public $POSTransactionId;
+    public $Payee;
+    public $Total;
+    public $Comment;
 
     function __construct()
     {
-        $this->BankCard = new BankCardModel();
-        $this->AuthorizationCode = "";
-    }
-
-    public function fromJson($json)
-    {
-        if (!empty($json)) {
-            $this->BankCard = new BankCardModel();
-            $this->BankCard->fromJson(jget($json, 'BankCard'));
-            $this->AuthorizationCode = jget($json, 'AuthorizationCode');
-        }
+        $this->POSTransactionId = "";
+        $this->Payee = "";
+        $this->Total = 0;
+        $this->Comment = "";
     }
 }

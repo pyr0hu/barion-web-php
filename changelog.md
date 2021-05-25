@@ -1,4 +1,25 @@
 # Changelog
+
+### [v1.4.4](https://github.com/barion/barion-web-php/releases/tag/v1.4.4) 2021-01-17
+- RecurrenceType is fixed in GetPaymentState response
+
+### [v1.4.3](https://github.com/barion/barion-web-php/releases/tag/v1.4.3) 2020-12-11
+- 3DS v2 token payment information added to the models
+
+### [v1.4.2](https://github.com/barion/barion-web-php/releases/tag/v1.4.2) 2019-08-15
+- ADD: added RecurrenceType and ChallengePreference 3DS properties
+
+### [v1.4.1](https://github.com/barion/barion-web-php/releases/tag/v1.4.1) 2019-08-14
+- FIX: fixed shipping address model parameters
+- ADD: detailed documentation for different payment scenarios
+
+### [v1.4.0](https://github.com/barion/barion-web-php/releases/tag/v1.4.0) 2019-08-08
+- ADD: supporting payment properties related to 3D Secure authentication
+- ADD: support for Delayed Capture payment scenarios
+
+### v1.3.2  2019-08-05
+- FIX: added shipping address model and fixed shipping address structure in examples
+
 ### [v1.3.1](https://github.com/barion/barion-web-php/releases/tag/v1.3.1) 2019-03-20
 - ADD: Greek locale support (el-GR)
 
